@@ -8,7 +8,7 @@ showMessage(123);
 var show = function (code) {
     return code;
 };
-function sendEmail(to, context) {
+function sendEmail(to, context, sendBy) {
     if (context === void 0) { context = "Hello this is a e-mail."; }
     console.log(to + context);
 }
