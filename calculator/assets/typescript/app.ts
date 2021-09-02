@@ -1,1 +1,3 @@
-console.log("starting project");
+import CalculatorController from "./calculator/CalculatorController.js";
+
+new CalculatorController();
